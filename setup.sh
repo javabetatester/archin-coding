@@ -226,6 +226,8 @@ bind = $mod, J, togglesplit
 bind = $mod, N, exec, swaync-client -t -sw
 bind = $mod SHIFT, N, exec, swaync-client -C
 
+bind = $mod, K, exec, kitty -e less ~/.config/hypr/KEYBINDS.md
+
 bind = , Print, exec, grim -g "$(slurp)" /tmp/screenshot.png && wl-copy < /tmp/screenshot.png
 
 bind = $mod, R, exec, gpu-screen-recorder -w screen -f 30 -a default_output -o ~/screen-recordings/$(date +%Y-%m-%d_%H-%M-%S).mp4 & notify-send "Recording Started"

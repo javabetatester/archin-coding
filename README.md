@@ -12,6 +12,8 @@
 | **Wallpapers** | swww + pywal |
 | **Bar** | Quickshell |
 
+**Super K** - Abre tutorial de keybinds
+
 ## Installation
 
 As dotfiles estao incluídas no repo. Navegue ate a pasta e execute:
